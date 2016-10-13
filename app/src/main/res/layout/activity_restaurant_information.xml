@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.csulb.android.restaurantdirectory.RestaurantInformation"
+    android:orientation="vertical"
+    android:background="#5d7c76">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sayli&apos;s Restaurant"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/restaurant"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We are open Monday through Sunday 10:00AM to 10:00PM"
+        android:id="@+id/textView2"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Call to Order/Enquire"
+        android:id="@+id/btnCall"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="onCall"
+        android:background="#feecab"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+</LinearLayout>
